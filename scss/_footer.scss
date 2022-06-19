@@ -98,6 +98,7 @@
 
 .footer__contacts {
 	display: flex;
+	grid-gap: 2.3rem;
 }
 
 .footer__contacts-wrapper {
@@ -116,10 +117,6 @@
 	&:hover {
 		fill: var(--color-grey);
 	}
-}
-
-.footer__contacts {
-	grid-gap: 3rem;
 }
 
 .footer__contact-link {
